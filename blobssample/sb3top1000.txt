@@ -1,0 +1,1005 @@
+ <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.JPYLibor</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Cephei_QL_JPYLiborModel1_AddFixings_" data-uid="Cephei.QL.JPYLiborModel1.AddFixings*"></a>
+  <h4 id="Cephei_QL_JPYLiborModel1_AddFixings_Cephei_Cell_Generic_ICell_System_Collections_Generic_List_QLNet_Date______Cephei_Cell_Generic_ICell_System_Collections_Generic_List_double______Cephei_Cell_Generic_ICell_bool__" data-uid="Cephei.QL.JPYLiborModel1.AddFixings(C
+ephei.Cell.Generic.ICell&lt;System.Collections.Generic.List&lt;QLNet.Date&gt;&gt; -&gt; Cephei.Cell.Generic.ICell&lt;System.Collections.Generic.List&lt;double&gt;&gt; -&gt; Cephei.Cell.Generic.ICell&lt;bool&gt;)">member AddFixings: ICell&lt;List&lt;Date&gt;&gt; -&gt; ICe
+ll&lt;List&lt;double&gt;&gt; -&gt; ICell&lt;bool&gt; -&gt; ICell&lt;JPYLibor&gt;</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">member AddFixings: d:ICell&lt;List&lt;Date&gt;&gt; -&gt; v:ICell&lt;List&lt;double&gt;&gt; -&gt; forceOverwrite:ICell&lt;bool&gt; -&gt; ICell&lt;JPYLibor&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">QLNet.Date</span>&gt;&gt;</td>
+        <td><span class="parametername">d</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">double</span>&gt;&gt;</td>
+        <td><span class="parametername">v</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">bool</span>&gt;</td>
+        <td><span class="parametername">forceOverwrite</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.JPYLibor</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Cephei_QL_JPYLiborModel1_AddFixings1_" data-uid="Cephei.QL.JPYLiborModel1.AddFixings1*"></a>
+  <h4 id="Cephei_QL_JPYLiborModel1_AddFixings1_Cephei_Cell_Generic_ICell_QLNet_TimeSeries_System_Nullable_double_______Cephei_Cell_Generic_ICell_bool__" data-uid="Cephei.QL.JPYLiborModel1.AddFixings1(Cephei.Cell.Generic.ICell&lt;QLNet.TimeSeries&lt;System.Nullable&lt;dou
+ble&gt;&gt;&gt; -&gt; Cephei.Cell.Generic.ICell&lt;bool&gt;)">member AddFixings1: ICell&lt;TimeSeries&lt;Nullable&lt;double&gt;&gt;&gt; -&gt; ICell&lt;bool&gt; -&gt; ICell&lt;JPYLibor&gt;</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">member AddFixings1: source:ICell&lt;TimeSeries&lt;Nullable&lt;double&gt;&gt;&gt; -&gt; forceOverwrite:ICell&lt;bool&gt; -&gt; ICell&lt;JPYLibor&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.TimeSeries</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">double</span>&gt;&gt;&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">bool</span>&gt;</td>
+        <td><span class="parametername">forceOverwrite</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.JPYLibor</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Cephei_QL_JPYLiborModel1_Clone_" data-uid="Cephei.QL.JPYLiborModel1.Clone*"></a>
+  <h4 id="Cephei_QL_JPYLiborModel1_Clone_Cephei_Cell_Generic_ICell_QLNet_Handle_QLNet_YieldTermStructure___" data-uid="Cephei.QL.JPYLiborModel1.Clone(Cephei.Cell.Generic.ICell&lt;QLNet.Handle&lt;QLNet.YieldTermStructure&gt;&gt;)">member Clone: ICell&lt;Handle&lt;YieldTer
+mStructure&gt;&gt; -&gt; ICell&lt;IborIndex&gt;</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">member Clone: h:ICell&lt;Handle&lt;YieldTermStructure&gt;&gt; -&gt; ICell&lt;IborIndex&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.Handle</span>&lt;<span class="xref">QLNet.YieldTermStructure</span>&gt;&gt;</td>
+        <td><span class="parametername">h</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.IborIndex</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Cephei_QL_JPYLiborModel1_Fixing_" data-uid="Cephei.QL.JPYLiborModel1.Fixing*"></a>
+  <h4 id="Cephei_QL_JPYLiborModel1_Fixing_Cephei_Cell_Generic_ICell_QLNet_Date_____Cephei_Cell_Generic_ICell_bool__" data-uid="Cephei.QL.JPYLiborModel1.Fixing(Cephei.Cell.Generic.ICell&lt;QLNet.Date&gt; -&gt; Cephei.Cell.Generic.ICell&lt;bool&gt;)">member Fixing: ICell&l
+t;Date&gt; -&gt; ICell&lt;bool&gt; -&gt; ICell&lt;float&gt;</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">member Fixing: fixingDate:ICell&lt;Date&gt; -&gt; forecastTodaysFixing:ICell&lt;bool&gt; -&gt; ICell&lt;float&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.Date</span>&gt;</td>
+        <td><span class="parametername">fixingDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">bool</span>&gt;</td>
+        <td><span class="parametername">forecastTodaysFixing</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">float</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Cephei_QL_JPYLiborModel1_FixingDate_" data-uid="Cephei.QL.JPYLiborModel1.FixingDate*"></a>
+  <h4 id="Cephei_QL_JPYLiborModel1_FixingDate_Cephei_Cell_Generic_ICell_QLNet_Date__" data-uid="Cephei.QL.JPYLiborModel1.FixingDate(Cephei.Cell.Generic.ICell&lt;QLNet.Date&gt;)">member FixingDate: ICell&lt;Date&gt; -&gt; ICell&lt;Date&gt;</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">member FixingDate: valueDate:ICell&lt;Date&gt; -&gt; ICell&lt;Date&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.Date</span>&gt;</td>
+        <td><span class="parametername">valueDate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.Date</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Cephei_QL_JPYLiborModel1_ForecastFixing_" data-uid="Cephei.QL.JPYLiborModel1.ForecastFixing*"></a>
+  <h4 id="Cephei_QL_JPYLiborModel1_ForecastFixing_Cephei_Cell_Generic_ICell_QLNet_Date__" data-uid="Cephei.QL.JPYLiborModel1.ForecastFixing(Cephei.Cell.Generic.ICell&lt;QLNet.Date&gt;)">member ForecastFixing: ICell&lt;Date&gt; -&gt; ICell&lt;float&gt;</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">member ForecastFixing: fixingDate:ICell&lt;Date&gt; -&gt; ICell&lt;float&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.Date</span>&gt;</td>
+        <td><span class="parametername">fixingDate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">float</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Cephei_QL_JPYLiborModel1_ForecastFixing1_" data-uid="Cephei.QL.JPYLiborModel1.ForecastFixing1*"></a>
+  <h4 id="Cephei_QL_JPYLiborModel1_ForecastFixing1_Cephei_Cell_Generic_ICell_QLNet_Date_____Cephei_Cell_Generic_ICell_QLNet_Date_____Cephei_Cell_Generic_ICell_double__" data-uid="Cephei.QL.JPYLiborModel1.ForecastFixing1(Cephei.Cell.Generic.ICell&lt;QLNet.Date&gt; -&gt; C
+ephei.Cell.Generic.ICell&lt;QLNet.Date&gt; -&gt; Cephei.Cell.Generic.ICell&lt;double&gt;)">member ForecastFixing1: ICell&lt;Date&gt; -&gt; ICell&lt;Date&gt; -&gt; ICell&lt;double&gt; -&gt; ICell&lt;float&gt;</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">member ForecastFixing1: d1:ICell&lt;Date&gt; -&gt; d2:ICell&lt;Date&gt; -&gt; t:ICell&lt;double&gt; -&gt; ICell&lt;float&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.Date</span>&gt;</td>
+        <td><span class="parametername">d1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.Date</span>&gt;</td>
+        <td><span class="parametername">d2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">double</span>&gt;</td>
+        <td><span class="parametername">t</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">float</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Cephei_QL_JPYLiborModel1_IsValidFixingDate_" data-uid="Cephei.QL.JPYLiborModel1.IsValidFixingDate*"></a>
+  <h4 id="Cephei_QL_JPYLiborModel1_IsValidFixingDate_Cephei_Cell_Generic_ICell_QLNet_Date__" data-uid="Cephei.QL.JPYLiborModel1.IsValidFixingDate(Cephei.Cell.Generic.ICell&lt;QLNet.Date&gt;)">member IsValidFixingDate: ICell&lt;Date&gt; -&gt; ICell&lt;bool&gt;</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">member IsValidFixingDate: fixingDate:ICell&lt;Date&gt; -&gt; ICell&lt;bool&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.Date</span>&gt;</td>
+        <td><span class="parametername">fixingDate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">bool</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Cephei_QL_JPYLiborModel1_MaturityDate_" data-uid="Cephei.QL.JPYLiborModel1.MaturityDate*"></a>
+  <h4 id="Cephei_QL_JPYLiborModel1_MaturityDate_Cephei_Cell_Generic_ICell_QLNet_Date__" data-uid="Cephei.QL.JPYLiborModel1.MaturityDate(Cephei.Cell.Generic.ICell&lt;QLNet.Date&gt;)">member MaturityDate: ICell&lt;Date&gt; -&gt; ICell&lt;Date&gt;</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">member MaturityDate: valueDate:ICell&lt;Date&gt; -&gt; ICell&lt;Date&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.Date</span>&gt;</td>
+        <td><span class="parametername">valueDate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.Date</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Cephei_QL_JPYLiborModel1_PastFixing_" data-uid="Cephei.QL.JPYLiborModel1.PastFixing*"></a>
+  <h4 id="Cephei_QL_JPYLiborModel1_PastFixing_Cephei_Cell_Generic_ICell_QLNet_Date__" data-uid="Cephei.QL.JPYLiborModel1.PastFixing(Cephei.Cell.Generic.ICell&lt;QLNet.Date&gt;)">member PastFixing: ICell&lt;Date&gt; -&gt; ICell&lt;Nullable&lt;float&gt;&gt;</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">member PastFixing: fixingDate:ICell&lt;Date&gt; -&gt; ICell&lt;Nullable&lt;float&gt;&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.Date</span>&gt;</td>
+        <td><span class="parametername">fixingDate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">float</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Cephei_QL_JPYLiborModel1_RegisterWith_" data-uid="Cephei.QL.JPYLiborModel1.RegisterWith*"></a>
+  <h4 id="Cephei_QL_JPYLiborModel1_RegisterWith_Cephei_Cell_Generic_ICell_QLNet_Callback__" data-uid="Cephei.QL.JPYLiborModel1.RegisterWith(Cephei.Cell.Generic.ICell&lt;QLNet.Callback&gt;)">member RegisterWith: ICell&lt;Callback&gt; -&gt; ICell&lt;JPYLibor&gt;</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">member RegisterWith: handler:ICell&lt;Callback&gt; -&gt; ICell&lt;JPYLibor&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.Callback</span>&gt;</td>
+        <td><span class="parametername">handler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.JPYLibor</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Cephei_QL_JPYLiborModel1_UnregisterWith_" data-uid="Cephei.QL.JPYLiborModel1.UnregisterWith*"></a>
+  <h4 id="Cephei_QL_JPYLiborModel1_UnregisterWith_Cephei_Cell_Generic_ICell_QLNet_Callback__" data-uid="Cephei.QL.JPYLiborModel1.UnregisterWith(Cephei.Cell.Generic.ICell&lt;QLNet.Callback&gt;)">member UnregisterWith: ICell&lt;Callback&gt; -&gt; ICell&lt;JPYLibor&gt;</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">member UnregisterWith: handler:ICell&lt;Callback&gt; -&gt; ICell&lt;JPYLibor&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.Callback</span>&gt;</td>
+        <td><span class="parametername">handler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.JPYLibor</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Cephei_QL_JPYLiborModel1_ValueDate_" data-uid="Cephei.QL.JPYLiborModel1.ValueDate*"></a>
+  <h4 id="Cephei_QL_JPYLiborModel1_ValueDate_Cephei_Cell_Generic_ICell_QLNet_Date__" data-uid="Cephei.QL.JPYLiborModel1.ValueDate(Cephei.Cell.Generic.ICell&lt;QLNet.Date&gt;)">member ValueDate: ICell&lt;Date&gt; -&gt; ICell&lt;Date&gt;</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">member ValueDate: fixingDate:ICell&lt;Date&gt; -&gt; ICell&lt;Date&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.Date</span>&gt;</td>
+        <td><span class="parametername">fixingDate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cephei.Cell.Generic.ICell-1.html">ICell</a>&lt;<span class="xref">QLNet.Date</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Cephei.Cell.Generic.ICell&lt;QLNet.JPYLibor&gt;</span>
+  </div>
+  <div>
+      <span class="xref">Cephei.Cell.ICell</span>
+  </div>
+  <div>
+      <span class="xref">Cephei.Cell.ICellEvent</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;string,Cephei.Cell.ICell&gt;&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.IDictionary&lt;string,Cephei.Cell.ICell&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,Cephei.Cell.ICell&gt;&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.IReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;string,Cephei.Cell.ICell&gt;&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.IReadOnlyDictionary&lt;string,Cephei.Cell.ICell&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.ICollection</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.IDictionary</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.IEnumerable</span>
+  </div>
+  <div>
+      <span class="xref">System.IObservable&lt;Cephei.Cell.ICell&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IObservable&lt;Cephei.Cell.ISession * Cephei.Cell.Generic.ICell&lt;QLNet.JPYLibor&gt; * Cephei.Cell.CellEvent * Cephei.Cell.ICell * System.DateTime&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IObservable&lt;Cephei.Cell.ISession * Cephei.Cell.Model * Cephei.Cell.CellEvent * Cephei.Cell.ICell * System.DateTime&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IObservable&lt;QLNet.JPYLibor&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IObservable&lt;System.Collections.Generic.KeyValuePair&lt;Cephei.Cell.ISession,System.Collections.Generic.KeyValuePair&lt;string,Cephei.Cell.ICell&gt;&gt;&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IObservable&lt;System.Collections.Generic.KeyValuePair&lt;Cephei.Cell.ISession,System.Collections.Generic.KeyValuePair&lt;string,QLNet.JPYLibor&gt;&gt;&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IObservable&lt;System.Collections.Generic.KeyValuePair&lt;string,decimal&gt;&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IObservable&lt;System.Collections.Generic.KeyValuePair&lt;string,float&gt;&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IObservable&lt;System.Collections.Generic.KeyValuePair&lt;string,int&gt;&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IObserver&lt;QLNet.JPYLibor&gt;</span>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
+[scratchblocks]
+if fkjidjfijdsjfdsjfdspfis-ofidsfidsofjs then
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "parameters": [
+    [
+      "MainVolume",
+      0.4427821
+    ],
+    [
+      "VoicePolyphony",
+      1.0
+    ],
+    [
+      "AttackSeconds",
+      0.1
+    ],
+    [
+      "DecaySeconds",
+      0.5
+    ],
+    [
+      "SustainAmplitude",
+      0.5
+    ],
+    [
+      "ReleaseSeconds",
+      0.25
+    ],
+    [
+      {
+        "Waveform": "A"
+      },
+      0.5
+    ],
+    [
+      {
+        "Volume": "A"
+      },
+      0.62920326
+    ],
+    [
+      {
+        "FrequencyRatio": "A"
+      },
+      1.0
+    ],
+    [
+      {
+        "Waveform": "B"
+      },
+      0.5
+    ],
+    [
+      {
+        "Volume": "B"
+      },
+      0.0
+    ],
+    [
+      {
+        "FrequencyRatio": "B"
+      },
+      1.005
+    ],
+    [
+      {
+        "Waveform": "C"
+      },
+      0.5
+    ],
+    [
+      {
+        "Volume": "C"
+      },
+      0.0
+    ],
+    [
+      {
+        "FrequencyRatio": "C"
+      },
+      0.996
+    ],
+    [
+      "FilterFrequency",
+      5969.785
+    ],
+    [
+      "FilterResonance",
+      0.2589178
+    ],
+    [
+      "FilterKeyTracking",
+      1.5114332
+    ]
+  ]
+}12231313123<dec f='glibc_src_2.29/crypt/crypt.h' l='49' type='char [32768]'/>
+<offset>787456</offset>
+<use f='glibc_src_2.29/crypt/crypt_util.c' l='347' u='r' c='__init_des_r'/>
+<use f='glibc_src_2.29/crypt/crypt_util.c' l='480' u='r' c='__init_des_r'/>
+<use f='glibc_src_2.29/crypt/crypt_util.c' l='485' u='r' c='__init_des_r'/>
+<use f='glibc_src_2.29/crypt/crypt_util.c' l='490' u='r' c='__init_des_r'/>
+<use f='glibc_src_2.29/crypt/crypt_util.c' l='490' u='r' c='__init_des_r'/>
+<use f='glibc_src_2.29/crypt/crypt_util.c' l='658' u='r' c='_ufc_setup_salt_r'/>
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ea0284d2c5e1b5afe3db8ffabe504a1367d767619c5fcf56a157eeb226036d9
+size 59278031
+{
+        "objName": "Stage",
+        "sounds": [{
+                        "soundName": "pop",
+                        "soundID": -1,
+                        "md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+                        "sampleCount": 258,
+                        "rate": 11025,
+                        "format": ""
+                }],
+        "costumes": [{
+                        "costumeName": "Portal Backdrop",
+                        "baseLayerID": -1,
+                        "baseLayerMD5": "c8880e6ad0c4b3324a73f556042347d1.png",
+                        "bitmapResolution": 2,
+                        "rotationCenterX": 480,
+                        "rotationCenterY": 360
+                }],
+        "currentCostumeIndex": 0,
+        "penLayerMD5": "5c81a336fab8be57adc039a8a2b33ca9.png",
+        "penLayerID": -1,
+        "tempoBPM": 60,
+        "videoAlpha": 0.5,
+        "children": [{
+                        "target": "ChellCat",
+                        "cmd": "xpos",
+                        "param": null,
+                        "color": 4877524,
+                        "label": "ChellCat: x position",
+                        "mode": 1,
+                        "sliderMin": 0,
+                        "sliderMax": 100,
+                        "isDiscrete": true,
+                        "x": 5,
+                        "y": 5,
+                        "visible": false
+                },
+                {
+                        "target": "Blue portal",
+                        "cmd": "xpos",
+                        "param": null,
+                        "color": 4877524,
+                        "label": "Blue portal: x position",
+                        "mode": 1,
+                        "sliderMin": 0,
+                        "sliderMax": 100,
+                        "isDiscrete": true,
+                        "x": 7,
+                        "y": 8,
+                        "visible": false
+                },
+                {
+                        "target": "Blue portal",
+                        "cmd": "ypos",
+                        "param": null,
+                        "color": 4877524,
+                        "label": "Blue portal: y position",
+                        "mode": 1,
+                        "sliderMin": 0,
+                        "sliderMax": 100,
+                        "isDiscrete": true,
+                        "x": -1,
+                        "y": 39,
+                        "visible": false
+                },
+                {
+                        "objName": "Blue portal",
+                        "sounds": [{
+                                        "soundName": "pop",
+                                        "soundID": -1,
+                                        "md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+                                        "sampleCount": 258,
+                                        "rate": 11025,
+                                        "format": ""
+                                }],
+                        "costumes": [{
+                                        "costumeName": "Blue portal",
+                                        "baseLayerID": -1,
+                                        "baseLayerMD5": "33a85ae49a60fca9348dd699144c0735.png",
+                                        "bitmapResolution": 2,
+                                        "rotationCenterX": 65,
+                                        "rotationCenterY": 108
+                                }],
+                        "currentCostumeIndex": 0,
+                        "scratchX": -200,
+                        "scratchY": 0,
+                        "scale": 1,
+                        "direction": 90,
+                        "rotationStyle": "normal",
+                        "isDraggable": false,
+                        "indexInLibrary": 2,
+                        "visible": true,
+                        "spriteInfo": {
+                        }
+                },
+                {
+                        "objName": "Orange portal",
+                        "sounds": [{
+                                        "soundName": "pop",
+                                        "soundID": -1,
+                                        "md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+                                        "sampleCount": 258,
+                                        "rate": 11025,
+                                        "format": ""
+                                }],
+                        "costumes": [{
+                                        "costumeName": "Orange portal",
+                                        "baseLayerID": -1,
+                                        "baseLayerMD5": "498b3ac400c774da8a1fb743219b7085.png",
+                                        "bitmapResolution": 2,
+                                        "rotationCenterX": 77,
+                                        "rotationCenterY": 108
+                                }],
+                        "currentCostumeIndex": 0,
+                        "scratchX": 200,
+                        "scratchY": 0,
+                        "scale": 1,
+                        "direction": 90,
+                        "rotationStyle": "normal",
+                        "isDraggable": false,
+                        "indexInLibrary": 3,
+                        "visible": true,
+                        "spriteInfo": {
+                        }
+                },
+                {
+                        "objName": "ChellCat",
+                        "scripts": [[49,
+                                        40,
+                                        [["whenGreenFlag"],
+                                                ["doForever",
+                                                        [["doIfElse",
+                                                                        [">", ["xpos"], "195"],
+                                                                        [["hide"], ["gotoX:y:", -200, 0], ["show"]],
+                                                                        [["forward:", 10]]]]]]],
+                                [54, 326, [["whenGreenFlag"], ["gotoX:y:", 0, 0]]]],
+                        "sounds": [{
+                                        "soundName": "meow",
+                                        "soundID": -1,
+                                        "md5": "83c36d806dc92327b9e7049a565c6bff.wav",
+                                        "sampleCount": 18688,
+                                        "rate": 22050,
+                                        "format": ""
+                                }],
+                        "costumes": [{
+                                        "costumeName": "costume1",
+                                        "baseLayerID": -1,
+                                        "baseLayerMD5": "1e4e726689a88c972dd61a90bcb54340.svg",
+                                        "bitmapResolution": 1,
+                                        "rotationCenterX": 57,
+                                        "rotationCenterY": 47
+                                },
+                                {
+                                        "costumeName": "costume2",
+                                        "baseLayerID": -1,
+                                        "baseLayerMD5": "6e8bd9ae68fdb02b7e1e3df656a75635.svg",
+                                        "bitmapResolution": 1,
+                                        "rotationCenterX": 47,
+                                        "rotationCenterY": 55
+                                }],
+                        "currentCostumeIndex": 1,
+                        "scratchX": 170,
+                        "scratchY": 0,
+                        "scale": 1,
+                        "direction": 90,
+                        "rotationStyle": "none",
+                        "isDraggable": false,
+                        "indexInLibrary": 1,
+                        "visible": true,
+                        "spriteInfo": {
+                        }
+                }],
+        "info": {
+                "spriteCount": 3,
+                "swfVersion": "v430",
+                "userAgent": "Mozilla\/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/39.0.2171.95 Safari\/537.36",
+                "projectID": "41366122",
+                "videoOn": false,
+                "flashVersion": "WIN 16,0,0,235",
+                "scriptCount": 2
+        }
